@@ -3,6 +3,18 @@
 */
 
 function wait(n) {
+
+    let mypromise = new Promise(setTimeout(function(resolves,reject)
+    {
+        return mypromise
+
+    }), n)
 }
 
 module.exports = wait;
+
+
+// cd 01-js
+// ```npm install --save-dev jest```
+// ```npm install```
+// to run test case : ```npx jest ./tests/filename```
